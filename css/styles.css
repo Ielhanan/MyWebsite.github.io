@@ -1,8 +1,22 @@
-
+hr{
+  border: dotted #10F6F6 6px;
+  width: 10%;
+  border-bottom: none;
+  margin: 50px auto 50px auto;
+}
 body{
   margin: 0px;
   text-align: center;
-
+  color:#40514E;
+    background-color: #E4F9F5;
+}
+a{
+  color: #11919E;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#eaf6f6;
 }
 h3{
     color: #11999E;
@@ -13,9 +27,7 @@ h2{
     font-size: 200%
     font-weight : normal;
 }
-p{
 
-}
 h1{
   line-height: 2;
   color: #66BFBF;
@@ -32,6 +44,7 @@ h1{
 }
 .middle-container{
   text-align: left;
+
 }
 .bottom-container{
 text-align: center;
@@ -63,7 +76,7 @@ top: 50px;
 }
 .profile{
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   line-height: 1.8;
 }
 .Education{
@@ -110,4 +123,30 @@ top: 50px;
 }
 .end{
   color:#EAF6F6;
+}
+.btn {
+  background: #1ea0f7;
+  background-image: -webkit-linear-gradient(top, #1ea0f7, #415561);
+  background-image: -moz-linear-gradient(top, #1ea0f7, #415561);
+  background-image: -ms-linear-gradient(top, #1ea0f7, #415561);
+  background-image: -o-linear-gradient(top, #1ea0f7, #415561);
+  background-image: linear-gradient(to bottom, #1ea0f7, #415561);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cfc6f;
+  background-image: -webkit-linear-gradient(top, #3cfc6f, #3498db);
+  background-image: -moz-linear-gradient(top, #3cfc6f, #3498db);
+  background-image: -ms-linear-gradient(top, #3cfc6f, #3498db);
+  background-image: -o-linear-gradient(top, #3cfc6f, #3498db);
+  background-image: linear-gradient(to bottom, #3cfc6f, #3498db);
+  text-decoration: none;
 }
